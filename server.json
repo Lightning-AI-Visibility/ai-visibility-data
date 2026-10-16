@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
+  "name": "com.lightningeo/ai-visibility-data",
+  "description": "AI-visibility studies for agents: how ChatGPT, Gemini and Claude answer, any region or industry.",
+  "version": "1.0.0",
+  "websiteUrl": "https://api.lightningeo.com",
+  "repository": {
+    "url": "https://github.com/Lightning-AI-Visibility/ai-visibility-data",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.lightningeo.com/mcp"
+    }
+  ]
+}
