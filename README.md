@@ -37,7 +37,7 @@ Add either URL as a custom connector in Claude, ChatGPT, Cursor or any MCP clien
 ## Buy over HTTP with x402 / Comprar por HTTP con x402
 
 1. `GET https://api.lightningeo.com/estudio/{slug}` → HTTP 402 with price and payment details.
-2. Sign the USDC payment on **Base** with any x402 client (for example `@x402/fetch`).
+2. Sign the USDC payment on **Base** or **Solana** with any x402 client (for example `@x402/fetch`).
 3. Retry with the `PAYMENT-SIGNATURE` header → the full study plus 7-day download links.
 
 Each study costs USD 0.99, within the default USD 1 per-payment cap of official x402 clients. You are not charged if the study isn't delivered.
